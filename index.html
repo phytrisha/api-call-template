@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Hub – Text Generation</title>
+  <style>
+    /* Seitenbreite begrenzen und zentrieren */
+    body { font-family: sans-serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; }
+    button { padding: .5rem 1.2rem; font-size: 1rem; cursor: pointer; }
+    /* Ausgabebereich: Zeilenumbrüche erhalten, grauer Hintergrund */
+    #output { white-space: pre-wrap; margin-top: 1rem; padding: .75rem; background: #f5f5f5; min-height: 4rem; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h2>AI Hub – Text Generation</h2>
+
+  <!-- Klick ruft generate() in script.js auf -->
+  <button onclick="generate()">Generate</button>
+
+  <!-- Hier wird die Antwort der API angezeigt -->
+  <div id="output"></div>
+
+  <!-- script.js wird vom Server geladen; API_KEY und BASE_URL werden dabei vorangestellt -->
+  <script src="/script.js"></script>
+</body>
+</html>
