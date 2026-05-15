@@ -80,4 +80,3 @@ Den Server im Terminal mit `Ctrl + C` stoppen.
 | `index.html` | Die Benutzeroberfläche im Browser |
 | `script.js` | Logik für die API-Anfrage |
 | `server.js` | Lokaler Server, der alles zusammenbringt |
-# api-call-template
